@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.sandec.personalcv">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".Info" />
+        <activity android:name=".Organization" />
+        <activity android:name=".Certificate" />
+        <activity android:name=".Skills" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Education" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Portofolio" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

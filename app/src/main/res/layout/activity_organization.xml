@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Organization">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/background">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/rhezaardiva"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RHEZA ARDHIVA"
+                        android:textColor="@android:color/white"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WEB DEVELOPMENT"
+                        android:textColor="@android:color/white"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="15dp"
+                            android:orientation="vertical">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="ORGANIZATION"
+                                    android:id="@+id/judulorganization"
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:textSize="20sp"
+                                    android:textAlignment="center"/>
+                                <View
+                                    android:id="@+id/garis"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="2dp"
+                                    android:layout_below="@+id/judulorganization"
+                                    android:layout_marginTop="16dp"
+                                    android:background="@android:color/darker_gray"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="18sp"
+                                    android:text="Youth Organization"
+                                    android:id="@+id/judulyouth"
+                                    android:layout_below="@+id/garis"
+                                    android:textAlignment="center"
+                                    android:layout_marginTop="10dp"/>
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:id="@+id/foto1"
+                                    android:layout_below="@+id/judulyouth"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/youth"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/gangjian"
+                                    android:layout_below="@id/judulyouth"
+                                    android:layout_toRightOf="@id/foto1"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:textStyle="bold"
+                                    android:text="Gang Jian Rt 05/09 (2018)"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/gangjian"
+                                    android:layout_toRightOf="@+id/foto1"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:text="@string/deskripsiyouth"/>
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="15dp"
+                            android:orientation="vertical">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="18sp"
+                                    android:text="Badminton Organization"
+                                    android:id="@+id/judulbadminton"
+                                    android:textAlignment="center"
+                                    android:layout_marginTop="10dp"/>
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:id="@+id/foto2"
+                                    android:layout_below="@+id/judulbadminton"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/logobultang"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/pbstarbak"
+                                    android:layout_below="@id/judulbadminton"
+                                    android:layout_toRightOf="@id/foto2"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:textStyle="bold"
+                                    android:text="SMK Taruna Bhakti (2018 - Now)"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/pbstarbak"
+                                    android:layout_toRightOf="@+id/foto2"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:text="@string/deskripsibadminton"/>
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

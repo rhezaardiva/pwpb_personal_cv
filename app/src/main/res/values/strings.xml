@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PersonalCV</string>
+    <string name="profile1">Let me Introduce my self. My name is Rheza Ardhiva. I was born in Depok, 18 July 2002. I am a beginner programmer who is still learning about websites, android, phpMyAdmin databases and that smells about programming. I understand several programming languages such as HTML, CSS, Javascript, and PHP. I also learned frameworks such as Laravel and Codeigniter. I am also able to work alone or in a team.</string>
+    <string name="profile2">I also learned about Adobe. Like Adobe Photoshop, Adobe Illustrator, and Adobe Premiere. I am still learning about design, so my skills are still not much, but I will try my best to be able to learn about Adobe.</string>
+    <string name="sd">Public schools are located in Depok. Consists of 6 classes, 1 lab, and 1 library. In front of this school was originally a forest, but over time the forest has turned into housing. At that time there were also many games at school, such as marbles, kites, etc. Many events happened during elementary school.</string>
+    <string name="smp">SMP Negeri 11 Depok, is one of the Public Middle Schools in Depok, which is located at Jl. Murbai Komp. Sukatani Permai Tapos - Depok, West Java. Consisting of 33 classes, 3 labs, and 1 library. In this school I also gained a lot of experiences from bad to good.</string>
+    <string name="smk">To fulfill the need for high quality human resources in mastering science and technology based on the spirit of faith and piety, Taruna Bhakti Vocational School Depok is designed to equip students to master knowledge, especially in the field of Information and Communication Technology with quality.</string>
+    <string name="deskripsiyouth">I was in 2018 following the youth organization in my household. At the Youth Organization there were often meetings to make the event successful 17. Then at event 17 I became a committee, helping the event to run smoothly.</string>
+    <string name="deskripsibadminton">I joined this organization when I was in class 10, to be exact in 2017. I attend this activity routinely, always present. Various kinds of exercises have been done. My goal in joining this organization is that I often exercise and also gain experience playing badminton.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info_name">Nama Info</string>
+    <string name="description">Deskripsi</string>
+</resources>
